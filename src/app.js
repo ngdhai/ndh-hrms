@@ -22,7 +22,7 @@ const loadNotes = function(file_name){
         const dataJSON = dataBuffer.toString()
         return JSON.parse(dataJSON)
     } catch (error) {
-        return []
+        return [];
     }
         
 }
